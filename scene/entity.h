@@ -46,7 +46,7 @@ public:
 		return m_rotation;
 	}
 
-	void setRotatonMatrix(CMat3f rotationMatrix) {
+	void setRotationMatrix(CMat3f rotationMatrix) {
 		m_matrix.m=rotationMatrix;
 		m_dirty = Dirty::rotation;
 	}
